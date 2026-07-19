@@ -320,7 +320,7 @@ function buildWaMessage() {
 function sendOrder() {
   const msg = buildWaMessage();
   if (!msg) return;
-  const url = `https://wa.me/${6288806710387}?text=${encodeURIComponent(msg)}`;
+  const url = `https://wa.me/${621111111111}?text=${encodeURIComponent(msg)}`;
   window.open(url, "_blank");
 }
 
@@ -347,7 +347,7 @@ function setWaLinks() {
   const genericMsg = encodeURIComponent(
     "Halo HydroPhoenix, saya ingin bertanya tentang tanaman aquaponik.",
   );
-  const url = `https://wa.me/${6288806710387}?text=${genericMsg}`;
+  const url = `https://wa.me/${621111111}?text=${genericMsg}`;
   document.getElementById("waFloat").href = url;
   document.getElementById("footerWaLink").href = url;
 }
